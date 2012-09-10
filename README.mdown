@@ -1,0 +1,36 @@
+Rainingly 1.0
+======================
+Originally posted on: September 10, 2012
+
+[![](http://github.com/kenguish/rainingly/raw/master/misc/screenshot.png)](http://github.com/kenguish/rainingly/raw/master/misc/screenshot.png)
+
+## About
+
+Rainingly gives you a soothing raining sound and a beautiful gallery right on your iOS devices.
+
+You can keep raining while you perform some other tasks.
+
+## Credits
+
+Original background image from "Tompkins Sq. Park" by Unknown:
+http:/bit.ly/HWKJX
+
+Original background image from "Water on Wood" by Darren Brooks:
+http://bit.ly/MRG3Ci
+
+Original background image from "pitch" by Rashida S. Mar B.
+
+Original background image from "Raindrops in pond with waterlily" by Fokko Muller:
+http://bit.ly/OiR99m
+
+Original background image from "The best thing one can do when it's raining is to let it rain" by Fokko Muller:
+http://bit.ly/MRFkkD
+
+Original Audio sample from Arctura:
+http://bit.ly/POwlRo
+
+If you are interested to extend the code, please feel free to contact the project maintainer on Github.
+
+## License
+Licensed under WTFPL <http://sam.zoy.org/wtfpl/COPYING>.
+
