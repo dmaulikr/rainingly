@@ -10,7 +10,7 @@ Rainingly gives you a soothing raining sound and a beautiful gallery right on yo
 
 You can keep raining while you perform some other tasks.
 
-This app is inspired by the http://raining.fm/ website. 
+This app is inspired by this thread on Hacker News http://news.ycombinator.com/item?id=4448043
 
 ## Credits
 
