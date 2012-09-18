@@ -103,6 +103,12 @@
         }
 
     }
+    
+    // check if it's iPhone 5
+    if ([[UIScreen mainScreen] bounds].size.height >= 568) {
+        self.aboutButton.frame = CGRectMake( 260.0, 400.0 + 84, 44.0, 44.0 );
+    }
+
 }
 
 - (IBAction)playPauseAction:(id)sender {
@@ -176,13 +182,25 @@
             self.aboutButton.frame = CGRectMake( 704.0, 940.0, 44.0, 44.0 );
         }
     } else {
-        if (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight) {
-            self.playPauseButton.frame = CGRectMake( 190.0, 110.0 - 10, 100.0, 100.0 );
-            self.aboutButton.frame = CGRectMake( 416.0 + 10, 246.0, 44.0, 44.0 );
-            
+        if ([[UIScreen mainScreen] bounds].size.height >= 568) {
+
+            if (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight) {
+                self.playPauseButton.frame = CGRectMake( 190.0, 110.0 - 10, 100.0, 100.0 );
+                self.aboutButton.frame = CGRectMake( 420.0 + 84, 240.0, 44.0, 44.0 );
+                
+            } else {
+                self.playPauseButton.frame = CGRectMake( 110.0, 190.0 - 10, 100.0, 100.0 );
+                self.aboutButton.frame = CGRectMake( 260.0, 400.0 + 84, 44.0, 44.0 );
+            }
         } else {
-            self.playPauseButton.frame = CGRectMake( 110.0, 190.0 - 10, 100.0, 100.0 );
-            self.aboutButton.frame = CGRectMake( 260.0 + 10, 410.0, 44.0, 44.0 );
+            if (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight) {
+                self.playPauseButton.frame = CGRectMake( 190.0, 110.0 - 10, 100.0, 100.0 );
+                self.aboutButton.frame = CGRectMake( 416.0 + 10, 246.0, 44.0, 44.0 );
+                
+            } else {
+                self.playPauseButton.frame = CGRectMake( 110.0, 190.0 - 10, 100.0, 100.0 );
+                self.aboutButton.frame = CGRectMake( 260.0 + 10, 410.0, 44.0, 44.0 );
+            }
         }
     }
 
